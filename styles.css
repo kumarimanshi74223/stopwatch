@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #0dd5f0;
+}
+
+.stopwatch {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+#display {
+  font-size: 3em;
+  margin-bottom: 20px;
+  background-color: rgb(199, 18, 117);
+}
+
+.controls button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+#lapList {
+  list-style-type: none;
+  padding: 0;
+  background-color: black;
+}
+
+#lapList li {
+  font-size: 1.2em;
+  margin: 5px 0;
+  background-color: blueviolet;
+}
